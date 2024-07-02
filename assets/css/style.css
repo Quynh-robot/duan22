@@ -84,7 +84,7 @@ a {
 
 /* =================hero================== */
 .hero {
-  padding: 49px 0 79px;
+  padding: 130px 156px 0;
 }
 .hero .body {
   display: flex;
@@ -276,8 +276,7 @@ a {
 /* =================popular================== */
 /* popular-top */
 .popular {
-  padding: 65px 0;
-  margin-top: 65px !important;
+  padding: 130px 156px 0;
 }
 /* thẻ p top */
 .popular .p-top {
@@ -345,8 +344,7 @@ a {
 /* =================courses================== */
 /* courses-top */
 .courses {
-  padding: 65px 0;
-  margin-top: 65px;
+  padding: 130px 156px 0;
 }
 .courses .courses1 {
   color: #767e7e;
@@ -360,19 +358,18 @@ a {
   font-weight: 700;
 }
 .courses .courses2 {
+  width: 525px;
   margin-top: 19px;
   color: #767e7e;
   font-size: 1.8rem;
   line-height: 178%; /* 177.778% */
 }
-.courses .courses-top span {
-  display: block;
-}
-.courses a {
+.courses .courses-top a {
   color: #1ebfc1;
   font-size: 1.4rem;
   font-weight: 700;
   text-decoration-line: underline;
+  margin-left: 137px;
 }
 .courses .courses-top .c1 {
   display: flex;
@@ -438,11 +435,128 @@ li {
   left: 17px;
   box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
 }
-.courses .courses-bottom .item{
+.courses .courses-bottom .item {
   position: relative;
   display: flex;
   justify-content: space-between;
 }
-.courses .block-list{
-  gap: 20px;
+.courses .courses-bottom {
+  gap: 47px;
+}
+
+/* ==============================countdown======================== */
+.countdown {
+  padding: 265px 291px 0;
+}
+.countdown .countdown-list {
+  display: flex;
+  gap: 209px;
+}
+/* item */
+.countdown .item h3 {
+  color: #0d1111;
+  text-align: center;
+  font-size: 6.2rem;
+  font-weight: 700;
+}
+.countdown .item p {
+  margin-top: 11px;
+  color: #767e7e;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+/* ==============================feedback======================== */
+.feedback {
+  padding: 264px 156px 0;
+}
+/* left */
+.feedback .box-left .p-left {
+  margin-top: 27px;
+  margin-bottom: 33px;
+  width: 419px;
+  color: #5d6564;
+  font-size: 3.2rem;
+  line-height: 150%; /* 150% */
+}
+.feedback .box-left .boder {
+  align-items: center;
+  color: #070707;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.feedback .box-left .boder::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 2px;
+  flex-shrink: 0;
+  background: #070707;
+  margin-right: 5px;
+}
+.feedback .box-left p {
+  color: #767e7e;
+  font-size: 1.6rem;
+}
+.feedback .feedback-list {
+  display: flex;
+  justify-content: space-between;
+}
+.feedback .box-left .btn {
+  margin-top: 52px;
+  margin-right: 30px;
+  background: transparent;
+  border: none;
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #1ebfc1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feedback .box-left .btn:hover {
+  opacity: 0.5;
+}
+.feedback .box-left .left {
+  display: flex;
+}
+/* right */
+.feedback .box-right .m1 {
+  width: 235px;
+  height: 235px;
+  border-radius: 235px;
+  margin-top: 107px;
+  margin-left: 345px;
+}
+.feedback .box-right .m6 {
+  width: 110px;
+  height: 110px;
+  border-radius: 110px;
+  object-fit: cover;
+}
+.feedback .box-right .m2 {
+  width: 78px;
+  height: 78px;
+  border-radius: 78px;
+  object-fit: cover;
+}
+.feedback .box-right .m3 {
+  width: 78px;
+  height: 78px;
+  object-fit: cover;
+  border-radius: 78px;
+}
+.feedback .box-right .m4 {
+  width: 78px;
+  height: 78px;
+  object-fit: cover;
+  border-radius: 78px;
+}
+.feedback .box-right .m5 {
+  width: 92px;
+  height: 92px;
+  border-radius: 92px;
+  object-fit: cover;
 }
