@@ -618,6 +618,11 @@ li {
 .footer .row .column li a {
   color: #535353;
   font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+}
+.footer .row .column li img{
+  margin-right: 9px;
 }
 .footer .row .column {
   width: 25.6%;
